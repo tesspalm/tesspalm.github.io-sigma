@@ -1,0 +1,79 @@
+/*This is the top content for all pages*/
+body{
+       background-color:whitesmoke;
+    font-family: Zurich;
+    font-family: Arial;
+
+}
+h1{
+    font: Goudy Old Style;
+    font: Georgia;
+    font-size: 3.5em;
+    font-weight:bold;
+    color:#A30134;
+    padding-top: 30px;
+}
+img{
+    margin:20px;  
+}
+
+.nav-item{
+    background-color:	#A6B4DC;
+    color:black;
+    font:Goudy Old Style;
+    font: Georgia;
+    font-size: 2em;
+    border: black;
+}
+.nav-item:hover{
+    background-color:#7A8B76;
+}
+#navbarSupportedContent{
+    background-color:whitesmoke;
+}
+
+
+form{
+    margin:10px;
+}
+form button:hover{
+    background-color:red;
+}
+
+/*CSS specific to the home page content*/
+
+#aside{
+    background-color:antiquewhite;
+    padding-top:15px;
+    margin:5px;
+}
+ul{
+    list-style-type: none;
+}
+h3{
+    text-align: center;
+}
+h2{ 
+    font-family: Zurich;
+    font-family: Arial;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    
+}
+#newsimg{
+    align-content: center;
+    width: 90%;
+    height: 30%;
+}
+#footer{
+    background-color: #A30134;
+    color:white;
+    padding:20px;
+}
+a{
+    color:white;
+}
+
+
+
