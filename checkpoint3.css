@@ -1,13 +1,11 @@
 /*This is the top content for all pages*/
 body{
-       background-color:whitesmoke;
-    font-family: Zurich;
-    font-family: Arial;
+       background-color:#D9E1D9;
+    font-family: Zurich, Arial, sans-serif;
 
 }
 h1{
-    font: Goudy Old Style;
-    font: Georgia;
+    font-family: Goudy Old Style, Georgia, serif;
     font-size: 3.5em;
     font-weight:bold;
     color:#A30134;
@@ -20,58 +18,67 @@ img{
 }
 
 .nav-item{
-    background-color:	#A6B4DC;
+    background-color:	#8B8275;
     color:white;
     font:Goudy Old Style;
     font: Georgia;
     font-size: 2em;
-    border: solid black 1px;/*change*/
+    border: solid #D9E1D9 1px;
+    border-radius:10px;
+        font-size: 1.5em;
+
 }
 .nav-item:hover{
-    background-color:#8B6889;
+    background-color:RGBA(163, 1, 52, 0.2);
     border: solid black 1px;
 }
 #navbarSupportedContent{
-    background-color:whitesmoke;
+    background-color:D9E1D9;
 }
-
 
 form{
     margin:10px;
 }
 form button{
-    border: solid black 1px;
-    border-radius:15%;
+    border: solid RGB(163, 1, 52) 1px;
+    border-radius:7px;
     padding: 5px;
     
 }
 form button:hover{
-    background-color:#A30134;
+    background-color:RGBA(163, 1, 52, 0.5);
 }
-
-/*CSS specific to the home page content*/
 
 #aside{
-    padding-top:15px;
-    margin:5px;
     background-color:RGBA(163, 1, 52, 0.15);
-}
-ul{
-    list-style-type: none;
+    margin:auto;
+    margin-bottom:30px;
+    margin-top:0px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom:50px;
+    margin-left:0px;
+    height:auto;
+    border-radius:10px;
+    
 }
 h3{
     text-align: center;
+    font-family: Goudy Old Style, Georgia, serif;
 }
 h2{ 
-    font-family: Zurich;
-    font-family: Arial;
+    font-family: Goudy Old Style, Georgia, serif;
     text-align: center;
     font-size: 2.5em;
     font-weight: bold;
+    color: #A30134;
     
 }
 h4{
     color: #A30134;
+        font-family: Goudy Old Style, Georgia, serif;
+
+    
 }
 #newsimg{
     align-content: center;
@@ -85,19 +92,19 @@ h4{
 }
 a{
     color:white;
-    text-align: center;/*change*/
+    text-align: center;
 }
 a:hover{
     color:black;
 }
 #content{
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 #profile img{
     width:30%;
     display: block;
     margin:auto;
-} /*change*/
+} 
 
 
 
